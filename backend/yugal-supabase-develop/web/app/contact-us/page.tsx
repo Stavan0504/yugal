@@ -10,7 +10,7 @@ export default async function Index() {
   const { label, logo } = data.layoutProps.header;
 
   return (
-    <div>
+    <div className="">
       <Header variant={data.variant} logo={logo} label={label} />
       <HelpsandSupport data={data?.pageBuilder || []} />
       {/* <Footer /> */}
